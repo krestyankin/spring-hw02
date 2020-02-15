@@ -11,6 +11,6 @@ public class TestResult {
 
     @Override
     public String toString() {
-        return "Студент: " + student.getFirstName() + " " + student.getLastName() + ": "+result;
+        return student.getFirstName() + " " + student.getLastName() + ": "+result;
     }
 }

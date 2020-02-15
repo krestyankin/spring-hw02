@@ -1,0 +1,10 @@
+locale:
+  language: en
+  country: EN
+quiz:
+  questionsToAsk: 5
+  percentToPass: 80
+spring:
+  messages:
+    basename: i18n\bundle
+    encoding: UTF-8
