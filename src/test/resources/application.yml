@@ -2,12 +2,13 @@ locale:
   language: en
   country: EN
 quiz:
-  questionsToAsk: 5
+  questionsToAsk: 1
   percentToPass: 80
 spring:
   messages:
     basename: i18n\bundle
     encoding: UTF-8
-logging:
-  level:
-    root: ERROR
+  shell:
+    interactive:
+      enabled: false
+
